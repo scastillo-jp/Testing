@@ -1,6 +1,8 @@
 # Testing
-Learning Unit Testing
+- Learning Unit Testing
 
+# requirement
+- npm install karma-cli phantomjs -g
 # Install the project
 - npm install
 
@@ -10,4 +12,4 @@ Learning Unit Testing
 
 
 # Documentation
-- (https://jasmine.github.io/2.9/introduction.html?spec=Pending%20specs)[Jasmine]
+- (https://jasmine.github.io/2.9/introduction.html?spec=Pending%20specs)[Jasmine].
