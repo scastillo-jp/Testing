@@ -14,6 +14,8 @@ describe('Testing AngularJS Test Suite', function () {
       expect(scope.title).toBeDefined();
       expect(scope.title).toBe("Testing AngularJS Applications");
     });
+
+    // TODO: add more test
   });
 
 });
