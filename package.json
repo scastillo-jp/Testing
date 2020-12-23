@@ -1,14 +1,29 @@
 {
-  "name": "testing",
+  "name": "app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning Unit Testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scastillo-jp/Testing.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scastillo-jp/Testing/issues"
+  },
+  "homepage": "https://github.com/scastillo-jp/Testing#readme",
   "devDependencies": {
-    "bower": "^1.8.8"
+    "bower": "^1.8.8",
+    "jasmine": "^3.6.3",
+    "karma": "^5.2.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "dependencies": {
+    "phantomjs": "^2.1.3"
   }
 }
