@@ -12,7 +12,7 @@ describe('Testing AngularJS Test Suite', function () {
 
     it('should initialize the title in the scope', function() {
       expect(scope.title).toBeDefined();
-      expect(scope.title).toBe("Testing AngularJS Applications");
+      expect(scope.title.length).toBe(11);
     });
   });
 
