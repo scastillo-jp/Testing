@@ -19,6 +19,16 @@ describe('Testing AngularJS Test Suite', function () {
       expect(scope.message).toBeDefined();
       expect(scope.message.length).toBe(11);
     });
+
+    it('should validate tha the increment() function add 1 to count', function() {
+      spyOn(scope,"increment").and.callThrough();
+      expect(scope.count).toBeDefined();
+      expect(scope.count).toBe(0);
+      scope.increment();
+      expect(scope.increment).toHaveBeenCalled();
+      expect(scope.count).toBe(1);
+    });
+
   });
 
 });
