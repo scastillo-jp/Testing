@@ -8,7 +8,7 @@ describe('Testing AngularJS Test Suite', function () {
     beforeEach(
       inject(function ($controller) {
         ctrl = $controller('testingAngularCtrl', { $scope: scope });
-      }));
+    }));
 
     it('should initialize the title in the scope', function() {
       expect(scope.title).toBeDefined();
