@@ -14,6 +14,15 @@ describe('Testing AngularJS Test Suite', function () {
       expect(scope.title).toBeDefined();
       expect(scope.title).toBe("Testing AngularJS Applications");
     });
+
+    it('test Arroba input', function(){
+      expect(scope.email).toBeDefined();
+      expect(scope.email).toContain("@");
+      
+    });
+
+  
+
   });
 
 });
