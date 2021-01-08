@@ -21,7 +21,14 @@ describe('Testing AngularJS Test Suite', function () {
       
     });
 
-  
+    it('test lista', function(){
+
+      expect(scope.datos).toBeDefined();
+      expect(scope.datos).toHaveSize(3);
+      
+    });
+
+    
 
   });
 
